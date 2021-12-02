@@ -20,7 +20,7 @@
         <nuxt-link
           active-class="active"
           class="menu-item-link flex items-center"
-          to="/agents"
+          to="/#"
         >
           <span class="flex items-center px-6">
             <img class="w-5 mr-2" :src="agents" alt="agents" /> Agents
@@ -31,7 +31,7 @@
         <nuxt-link
           active-class="active"
           class="menu-item-link flex items-center"
-          to="/task"
+          to="/#"
         >
           <span class="flex items-center px-6">
             <img class="w-5 mr-2" :src="task" alt="task" /> Task
@@ -42,7 +42,7 @@
         <nuxt-link
           active-class="active"
           class="menu-item-link flex items-center"
-          to="/teams"
+          to="/#"
         >
           <span class="flex items-center px-6">
             <img class="w-5 mr-2" :src="teams" alt="teams" /> Teams
@@ -53,7 +53,7 @@
         <nuxt-link
           active-class="active"
           class="menu-item-link flex items-center"
-          to="/users"
+          to="/#"
         >
           <span class="flex items-center px-6">
             <img class="w-5 mr-2" :src="users" alt="users" /> Users
@@ -64,7 +64,7 @@
         <nuxt-link
           active-class="active"
           class="menu-item-link flex items-center"
-          to="/settings"
+          to="/#"
         >
           <span class="flex items-center px-6">
             <img class="w-5 mr-2" :src="settings" alt="settings" /> Settings
@@ -77,7 +77,7 @@
 
 <script>
 import company from "../static/company.png";
-import dashboard from "../static/category.png";
+import dashboard from "../static/Category.png";
 import agents from "../static/agents.png";
 import task from "../static/Document.png";
 import teams from "../static/Shield.png";
